@@ -1,5 +1,5 @@
-#@Function Name : leftrotation
-#@Description   : Rotates the given list with respect to the rotation ratio given 
+#@Function Name	: leftrotation
+#@Description	: Rotates the given list with respect to the rotation ratio given 
 #
 #@Param 		: this function takes a string as and input . 
 #				  The string is compose of the list that is to be rotated 
