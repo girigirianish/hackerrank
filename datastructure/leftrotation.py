@@ -10,7 +10,8 @@
 
 from collections import deque
 
-def leftrotation(lrinput):
+#  this one is a little diffrent from the actual solution in hacker rank
+def leftRotation(lrinput):
 	inputForLeftRotation = lrinput.split("/n")
 
 	listToRotate = deque(inputForLeftRotation[0].strip().split(" "))
@@ -20,4 +21,17 @@ def leftrotation(lrinput):
 
 	return	' '.join(list(listToRotate))
 
-leftrotation("1 2 3 4 5 /n 5")
+leftRotation("1 2 3 4 5 /n 5")
+
+# this one si thye actual sloution passed in hacker rank solution 
+def leftRotationhk(a, d):
+    inputForLeftRotation = a
+    
+    listToRotate = deque(inputForLeftRotation)
+    rotationRatio = - (d - 1)
+    
+    listToRotate.rotate(rotationRatio)
+
+    print (' '.join(map(str, listToRotate)))
+
+leftRotationhk([1,2,3,4,5], 5)
