@@ -23,7 +23,7 @@ def leftRotation(lrinput):
 
 leftRotation("1 2 3 4 5 /n 5")
 
-# this one si thye actual sloution passed in hacker rank solution 
+# this one is the actual sloution passed in hacker rank solution 
 def leftRotationhk(a, d):
     inputForLeftRotation = a
     
