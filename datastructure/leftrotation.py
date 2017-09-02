@@ -14,9 +14,9 @@ def leftrotation(lrinput):
 	inputForLeftRotation = lrinput.split("/n")
 
 	listToRotate = deque(inputForLeftRotation[0].strip().split(" "))
-	rotationRatio = inputForLeftRotation[1];
+	rotationRatio = - (int(inputForLeftRotation[1]) - 1)
 
-	listToRotate.rotate(-4)
+	listToRotate.rotate(rotationRatio)
 
 	return	' '.join(list(listToRotate))
 
