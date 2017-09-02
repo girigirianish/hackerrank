@@ -18,7 +18,6 @@ def leftrotation(lrinput):
 
 	listToRotate.rotate(-4)
 
-	print ' '.join(list(listToRotate))
-	return	''.join(list(listToRotate))
+	return	' '.join(list(listToRotate))
 
 leftrotation("1 2 3 4 5 /n 5")
